@@ -1,0 +1,22 @@
+name = "NSF2D"
+uuid = "24f2786b-a579-404c-a026-11f6ce92ab30"
+authors = ["Xinshuo Yang"]
+version = "0.1.0"
+
+[deps]
+JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+ProfileView = "c46f51b8-102a-5cf2-8d2c-8597cb0e0da7"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+StatProfilerHTML = "a8a75453-ed82-57c9-9e16-4cd1196ecbf5"
+TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
